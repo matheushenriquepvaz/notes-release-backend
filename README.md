@@ -3,7 +3,7 @@ This project contains the base infrastructure to access the functionalities logi
 
 The idea of the project was to be the base of the Notes app, and use the normaliser function to filter the one who is the responsible for the note.
 
-## Versions
+## 1. Versions
 
 
 The project is in JAVA 8, and uses the springboot in the version 2.7.9.
@@ -11,7 +11,7 @@ The project is in JAVA 8, and uses the springboot in the version 2.7.9.
 To build the project, JAVA 8 is required, and Maven in the version 3.9.7.
 
 
-## Build
+## 2. Build
 
 
 The command `mvn clean install` will set up the enviroment to build the application.
@@ -21,7 +21,7 @@ The file `src/test/resources/script-carga.sql` constains the DATABASE commands t
 To run as Local profile, the file `src/test/resources/application.properties` has the information to access the `H2` database for development test.
 
 
-## Runners
+## 3. Runners
 
 
 The file `src/test/java/br/com/notesrelease/NotesReleaseApplicationLocal.java` run the application using the `src/test/resources/application.properties` as base configuration file.
