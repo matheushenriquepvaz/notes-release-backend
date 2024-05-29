@@ -13,5 +13,9 @@ The command `mvn clean install` will set up the enviroment to build the applicat
 The file `src/test/resources/script-carga.sql` constains the DATABASE commands to create and add the initial data if needed.
 
 To run as Local profile, the file `src/test/resources/application.properties` has the information to access the `H2` database for development test.
+
+
 The file `src/test/java/br/com/notesrelease/NotesReleaseApplicationLocal.java` run the application using the `src/test/resources/application.properties` as base configuration file.
+
+
 The file `src/test/java/br/com/notesrelease/NormaliserTest.java` can be used to test the resolution of Normaliser class.
